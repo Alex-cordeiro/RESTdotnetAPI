@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadAlunosAPI", "CadAlunosAPI.csproj", "{2B07AF48-2688-49DF-B1B1-D6091AE004CF}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{39843DD8-EE60-465C-8EDB-31780FB7FB5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B07AF48-2688-49DF-B1B1-D6091AE004CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B07AF48-2688-49DF-B1B1-D6091AE004CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B07AF48-2688-49DF-B1B1-D6091AE004CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B07AF48-2688-49DF-B1B1-D6091AE004CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39843DD8-EE60-465C-8EDB-31780FB7FB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39843DD8-EE60-465C-8EDB-31780FB7FB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39843DD8-EE60-465C-8EDB-31780FB7FB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39843DD8-EE60-465C-8EDB-31780FB7FB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29355EBF-E77B-4D2D-BCB5-C7F44F18B19C}
+	EndGlobalSection
+EndGlobal

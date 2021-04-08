@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  cadalunosapi:
+    container_name: saitama-aspnet
+    image: cadalunosapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    networks:
+       - localnet
+    environment:
+        TZ: America/Sao_Paulo
+        ASPNETCORE_ENVIRONMENT: Production
+    ports:
+        
+networks:
+    localnet:
+        external: true
+        driver: bridge
